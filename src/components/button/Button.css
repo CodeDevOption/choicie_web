@@ -1,0 +1,36 @@
+.btn{
+    min-width: 147px;
+    outline:none;
+    padding: 14px 25px;
+    border-radius: 5rem;
+    border:none;
+    cursor:pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btn > .btn-name{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:.4rem;
+}
+.btn > .btn-name > i{
+    font-size: large;
+}
+.btn__color-1{
+    background: rgba(96, 83, 177, 1);
+    color:#FFFFFF;
+}
+.btn__color-2{
+    background: #F2CF7E;
+    color:#3B2186;
+}
+.btn__color-3{
+    background: #F2CF7E;
+    color:#000000;
+}
+
+.btn__color-4{
+    background:#3B2186;
+    color:#FFFFFF;
+}

@@ -1,0 +1,31 @@
+.maps{
+    align-items: center !important;
+    text-align: center;
+    padding-bottom: 3rem !important ;
+
+}
+
+.maps > img{
+    width: 700px;
+    height:auto;
+}
+
+.maps__sub-h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #3B2186;
+}
+
+@media  screen and (max-width:1000px) {
+    .maps > img{
+        width:90%;
+    }
+}

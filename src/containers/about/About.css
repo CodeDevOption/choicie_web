@@ -1,0 +1,30 @@
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+
+.about > .about__media-container{
+    width:100%;
+  
+
+
+}
+.about h1 {
+    margin-top:3rem ;
+}
+
+.about > .about__media-container > img{
+    width:calc(100% - 100px);
+    height: auto;
+}
+
+@media  screen and (max-width:450px) {
+    .about > .about__media-container > img{
+        width:100%;
+        height: auto;
+    }
+}
